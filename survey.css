@@ -1,0 +1,38 @@
+#container{
+    width: 50%;
+    height: 900px;
+    font-family: Calibri;
+}
+#head{
+    width: 100%;
+    height: 60px;
+    margin: 1px 0px 5px;
+    border-top: 1px solid gray;
+    border-bottom: 1px dotted gray;
+}
+#main{
+    width: 100%;
+    height: 860px;
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+table tr td.td1{
+    width: 80px;
+}
+table tr td{
+    width: 30px;
+    height: 10px;
+}
+form{
+    font-size: 12px;
+    font-weight: 200;
+}
+span{
+    font-size: 16px;
+    font-weight: 600;
+}
+select option{
+    width: 200px;
+}
