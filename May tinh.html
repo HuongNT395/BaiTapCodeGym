@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../css/May%20tinh.css">
+</head>
+<body>
+ <div id="div1">
+    <div id="div2">
+        <input type="text" id="result" style="width: 400px; height: 24px">
+    </div>
+     <div class="div3">
+         <button type="button" id="rad" value="rad" onclick="result.value+='Math.'+this.value">Rad</button>
+         <button type="button" id="none" value="<-" onclick="result.value= result.value.substring(0,result.value.length-1)"><-</button>
+         <button type="button" id="xl" value="xl">xl</button>
+         <button type="button" id="(" value="(" onclick="result.value+=this.value">(</button>
+         <button type="button" id=")" value=")" onclick="result.value+=this.value">)</button>
+         <button type="button" id="%" value="%" onclick="result.value/=100">%</button>
+         <button type="button" id="AC" value="AC" onclick="result.value=''">AC</button>
+     </div>
+     <div class="div3">
+         <button type="button" id="Inv" value="Inv">Inv</button>
+         <button type="button" id="sin" value="sin">sin</button>
+         <button type="button" id="In" value="In">In</button>
+         <button type="button" id="7" value="7" onclick="result.value+=this.value ">7</button>
+         <button type="button" id="8" value="8" onclick="result.value+=this.value">8</button>
+         <button type="button" id="9" value="9" onclick="result.value+=this.value">9</button>
+         <button type="button" id=":" value=":">:</button>
+     </div>
+     <div class="div3">
+         <button type="button" id="pi" value="pi" onclick="result.value+=Math.PI">pi</button>
+         <button type="button" id="cos" value="cos"onclick="result.value+='Math.'+this.value">cos</button>
+         <button type="button" id="log" value="log" onclick="result.value+='Math.'+this.value">log</button>
+         <button type="button" id="4" value="4" onclick="result.value+=this.value">4</button>
+         <button type="button" id="5" value="5" onclick="result.value+=this.value">5</button>
+         <button type="button" id="6" value="6" onclick="result.value+=this.value">6</button>
+         <button type="button" id="*" value="*" onclick="result.value+=this.value">x</button>
+     </div>
+     <div class="div3">
+         <button type="button" id="e" value="e" onclick="result.value+=Math.E">e</button>
+         <button type="button" id="tan" value="tan" onclick="result.value+='Math.'+this.value" >tan</button>
+         <button type="button" id="sqrt" value="sqrt" onclick="result.value+='Math.'+this.value">sqrt</button>
+         <button type="button" id="1" value="1" onclick="result.value+=this.value">1</button>
+         <button type="button" id="2" value="2" onclick="result.value+=this.value">2</button>
+         <button type="button" id="3" value="3" onclick="result.value+=this.value">3</button>
+         <button type="button" id="-" value="-" onclick="result.value+=this.value">-</button>
+     </div>
+     <div class="div3">
+         <button type="button" id="abs" value="abs" onclick="result.value+='Math.'+this.value">Abs</button>
+         <button type="button" id="exp" value="exp" onclick="result.value+='Math.'+this.value">Exp</button>
+         <button type="button" id="x^y" value="x^y" onclick="result.value+='Math.pow('">x<sup>y</sup></button>
+         <button type="button" id="0" value="0" onclick="result.value+=this.value">0</button>
+         <button type="button" id="." value="." onclick="result.value+=this.value">.</button>
+         <button type="button" id="=" value="=" onclick="result.value=eval(result.value)">=</button>
+         <button type="button" id="+" value="+" onclick="result.value+=this.value">+</button>
+     </div>
+ </div>
+</body>
+</html>
