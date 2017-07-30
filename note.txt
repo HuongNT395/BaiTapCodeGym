@@ -1,0 +1,14 @@
+﻿user story là m?t action
+user story t?o thành 1 trang ch? thì dua h?t vào sprint backlog
+prototype trang ch?
+Ðua n?i dung vào
+t?o hi?u ?ng
+C?u trúc thu m?c
+
+
+serversvn: https://riouxsvn.com
+
+username: huongnguyen
+password : 123456
+
+project: https://svn.riouxsvn.com/huongnotes
